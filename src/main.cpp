@@ -3,8 +3,8 @@
 #include <WebServer.h>
 #include <LittleFS.h>
 
-const char *ssid = "Kaiolito";
-const char *password = "12345678";
+const char *ssid = "Wifi";
+const char *password = "12345678"; //deve conter no mínmo 8 dígitos
 
 WebServer server(80);
 
