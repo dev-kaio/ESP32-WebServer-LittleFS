@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESP32 Web Server</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Controle de LEDs - ESP32</h1>
+    <p>LED Pin 2:
+        <a href="/2/on"><button class="button">ON</button></a>
+        <a href="/2/off"><button class="button">OFF</button></a>
+    </p>
+    <p>LED Pin 16:
+        <a href="/16/on"><button class="button">ON</button></a>
+        <a href="/16/off"><button class="button">OFF</button></a>
+    </p>
+    <p>LED Pin 17:
+        <a href="/17/on"><button class="button">ON</button></a>
+        <a href="/17/off"><button class="button">OFF</button></a>
+    </p>
+</body>
+
+</html>
