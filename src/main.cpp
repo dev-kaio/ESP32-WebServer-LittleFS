@@ -33,7 +33,7 @@ void setup() {
   digitalWrite(ledPin16, LOW);
   digitalWrite(ledPin17, LOW);
 
-  // Inicia o Wi-Fi em modo AP (ponto de acesso)
+  // Inicia o Wi-Fi em modo AP (Access Point)
   WiFi.softAP(ssid, password);
   Serial.println("WiFi Iniciado");
   Serial.print("IP: ");
