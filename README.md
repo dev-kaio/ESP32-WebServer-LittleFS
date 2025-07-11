@@ -6,18 +6,19 @@ Os arquivos ficam armazenados na pasta "data", que posteriormente tem seus arqui
 
 COMO FOI FEITO:
 
+
 Primeiramente criei um novo projeto no PlatformIO (extensão do VSCode que permite embarcar códigos para microcontroladores)
 
 <img width="1213" height="388" alt="image" src="https://github.com/user-attachments/assets/b09ba0a3-0032-4aed-b525-e5f4c6800057" />
 
 Em seguida fiz o código que seria embarcado (main.cpp), inclui as bibliotecas necessárias e fiz as devidas alterações no arquivo "platformio.ini":
 
-<img width="548" height="115" alt="image" src="https://github.com/user-attachments/assets/058a8399-9f14-4a29-b189-7a4bd4830b3e" />
 (platformio.ini)
+<img width="548" height="115" alt="image" src="https://github.com/user-attachments/assets/058a8399-9f14-4a29-b189-7a4bd4830b3e" />
 
 
+(bibliotecas em "main.cpp")
 <img width="180" height="87" alt="image" src="https://github.com/user-attachments/assets/92f412ba-b2a1-4c74-b46c-7c10ec568bab" />
-(bibliotecas em "main.cpp").
 
 
 Na função "setup" do código principal é preciso chamar a biblioteca para que ela monte o sistema de arquivos e dizer qual será a rota principal que ela deve seguir (o uso de rotas 
