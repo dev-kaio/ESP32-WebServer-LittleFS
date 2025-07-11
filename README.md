@@ -4,8 +4,8 @@ Os arquivos ficam armazenados na pasta "data", que posteriormente tem seus arqui
 
 <img width="568" height="172" alt="image" src="https://github.com/user-attachments/assets/0dc71c21-086b-4ffd-a002-9766ac0cf731" />
 
-COMO FOI FEITO:
 
+COMO FOI FEITO:
 
 Primeiramente criei um novo projeto no PlatformIO (extensão do VSCode que permite embarcar códigos para microcontroladores)
 
@@ -14,10 +14,12 @@ Primeiramente criei um novo projeto no PlatformIO (extensão do VSCode que permi
 Em seguida fiz o código que seria embarcado (main.cpp), inclui as bibliotecas necessárias e fiz as devidas alterações no arquivo "platformio.ini":
 
 (platformio.ini)
+
 <img width="548" height="115" alt="image" src="https://github.com/user-attachments/assets/058a8399-9f14-4a29-b189-7a4bd4830b3e" />
 
 
 (bibliotecas em "main.cpp")
+
 <img width="180" height="87" alt="image" src="https://github.com/user-attachments/assets/92f412ba-b2a1-4c74-b46c-7c10ec568bab" />
 
 
